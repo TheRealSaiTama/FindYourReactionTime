@@ -1,71 +1,72 @@
-# Find Your Reaction Time
+# Reaction Time Game
 
-This is a simple and elegant reaction time test game built with Python and Pygame. Test your reflexes and see how quickly you can respond to visual stimuli!
+A fun and visually appealing Python game to test and improve your reaction time.
 
-## Features
+## Description
 
-- Clean and intuitive user interface
-- Countdown timer with visual feedback
-- Accurate reaction time measurement
-- Option to retry and improve your score
+This Reaction Time Game is a Python-based application that challenges players to click on circles as quickly as they appear on the screen. The game features:
 
-## Prerequisites
+- Three difficulty levels: Easy, Medium, and Hard
+- Animated background with moving shapes
+- Particle effects for visual feedback
+- Customizable number of rounds
+- Average reaction time calculation
 
-Before you begin, ensure you have met the following requirements:
+## Requirements
 
-- Python 3.x installed on your system
-- Pygame library installed
+- Python 3.x
+- Pygame library
 
 ## Installation
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/findyourreactiontime.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd findyourreactiontime
-   ```
-3. Install the required dependencies:
+1. Ensure you have Python 3.x installed on your system.
+2. Install Pygame by running the following command:
    ```
    pip install pygame
    ```
-
-## Usage
-
-To run the reaction time test, execute the following command in the project directory:
-
-```
-python reaction_time_test.py
-```
-
-Follow the on-screen instructions to start the test and click as soon as you see the prompt.
+3. Download the `reaction_time_game.py` file to your local machine.
 
 ## How to Play
 
-1. Click the "Start Test" button to begin.
-2. Watch the countdown timer.
-3. As soon as you see "CLICK!" on the screen, click as quickly as possible.
-4. Your reaction time will be displayed.
-5. Click "Try Again" to attempt to improve your score.
+1. Run the game by executing the following command in your terminal:
+   ```
+   python reaction_time_game.py
+   ```
+2. On the start screen, choose your difficulty:
+   - Press 'E' for Easy
+   - Press 'M' for Medium
+   - Press 'H' for Hard
+3. Click anywhere to start the game.
+4. Click on the red circles as quickly as they appear.
+5. After 10 clicks, your average reaction time will be displayed.
+6. Choose to play again or quit the game.
+
+## Game Controls
+
+- Mouse click: Start game / Click circles
+- 'E' key: Set difficulty to Easy
+- 'M' key: Set difficulty to Medium
+- 'H' key: Set difficulty to Hard
+
+## Customization
+
+You can customize the game by modifying the following variables in the `reaction_time_game.py` file:
+
+- `max_clicks`: Change the number of rounds per game
+- `difficulties`: Adjust the circle sizes and appearance times for each difficulty level
+- Colors: Modify the color constants to change the game's color scheme
 
 ## Contributing
 
-Contributions to the Find Your Reaction Time project are welcome. If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Feel free to fork this project and submit pull requests with improvements or bug fixes. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
-Distributed under the GNU License. See `LICENSE` for more information.
+This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Contact
+## Acknowledgments
 
-Your Name - TheRealSaiTama
-Email - keshavsde@gmail.com
+- Pygame library for providing the game development framework
+- Inspired by various reaction time tests and games
+
+Enjoy testing and improving your reaction time!
